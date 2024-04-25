@@ -1,0 +1,217 @@
+﻿/* site.css */
+
+/* Set padding for the body */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Additional styles for logo and navbar */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-separator {
+    border-left: 1px solid rgba(0, 0, 0, 0.2); /* Thin vertical line with low opacity */
+    height: 60px; /* Adjust height as needed */
+    margin: 0 5px; /* Adjust margin to bring the line closer */
+}
+
+.logo-title {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.logo-main {
+    font-weight: bold;
+    font-size: 2em; /* Adjust font size for "FINCO" */
+    display: block; /* To display on a new line */
+}
+
+.logo-sub {
+    font-size: 0.9em; /* Adjust font size for "Consultancy agency" */
+    display: block; /* To display on a new line */
+}
+
+.logo-title1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 9px;
+}
+
+.nav-link {
+    padding: 0.5rem; /* Adjust the padding as needed */
+}
+
+.row > .col {
+    padding: 0; /* Remove any additional padding */
+}
+
+.col-auto a {
+    display: inline-block;
+    margin-right: 10px; /* Adjust the margin between links */
+}
+
+footer {
+    background: linear-gradient(to right,#004ff9, #000000);
+    ;
+    padding: 20px;
+}
+footer p{
+    color:white;
+}
+
+
+
+
+
+
+.col-auto a {
+    color: black; /* Set the color of the links to black */
+}
+
+.background-container {
+    position: relative;
+    width: 1670px; /* Set width of the container */
+    height: 550px; /* Set height of the container */
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 2px; /* Adjust the value to move the overlay down */
+    left: 20%; /* Adjust the value to move the overlay to the right */
+    width: 70%;
+    height: 100%;
+    z-index: 1; /* Ensure the overlay is on top of the background */
+}
+
+
+.background-container {
+    position: relative;
+    width: 1670px; /* Set width of the container */
+    height: 550px; /* Set height of the container */
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 2px; /* Adjust the value to move the overlay down */
+    left: 20%; /* Adjust the value to move the overlay to the right */
+    width: 70%;
+    height: 100%;
+    z-index: 1; /* Ensure the overlay is on top of the background */
+}
+
+.text-left {
+    position: absolute;
+    top: 50px; /* Adjust the vertical position */
+    left: 40px; /* Adjust the horizontal position */
+    z-index: 2; /* Ensure text is above the background image */
+    color: white; /* Set text color */
+    font-family: 'Times New Roman';
+}
+
+
+body {
+    font-family: Rubik,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    overflow-x: hidden;
+    color: #607289;
+}
+
+h5 {
+    font-size: 1rem;
+    line-height: 1.375;
+    font-family: Rubik,Arial,sans-serif;
+    font-weight: 500;
+    color: #030929;
+}
+
+a {
+    color: #818494;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+    a:hover {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+.logo-main1{
+    color:white;
+}
+
+
+.custom-card-title {
+    font-family: 'Josefin Slab', sans-serif;
+}
+
+
+/*FINCO LOGO*/
+.navbar.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other content */
+   
+}
+
+.logo-main {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo-sub {
+    font-size: 14px;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px; /* Adjust spacing between items */
+}
+
+    .navbar-nav .nav-item img {
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+  
+
+   
+
+

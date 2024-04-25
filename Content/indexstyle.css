@@ -1,0 +1,626 @@
+﻿body {
+}
+
+
+.transparent-button {
+    position: absolute;
+    top: 280px;
+    left: 88px;
+    z-index: 2;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 1s;
+}
+
+    .transparent-button:hover {
+        background-color: black;
+        color: white; 
+    }
+
+.transparent-button1 {
+    position: absolute;
+    top: 280px;
+    left: 300px;
+    z-index: 2;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 1s;
+}
+
+    .transparent-button1:hover {
+        background-color: blue; 
+        color: white;
+    }
+
+.text-left {
+    position: absolute;
+    top: 130px; 
+    left: 270px; 
+    z-index: 2; 
+    color: white; 
+    font-family: Cambria;
+}
+
+.container1 {
+    background: linear-gradient(to right,#004ff9, #000000);
+    position: relative;
+    width: 9000px;
+    align-content: center;
+    margin-top: 70px;
+}
+
+.Firstimage {
+    height: 500px;
+    width: 550px;
+    margin-left: 940px;
+    margin-top: 50px;
+}
+
+
+        /*Body section 1*/
+        /*---------------------------------------------------------------------------------------------------------------*/
+        .circle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90px; 
+            height: 90px; 
+            border-radius: 50%;
+            background-color: #007bff; 
+            color: white;
+            font-size: 30px; 
+        }
+
+        .card-title {
+            font-family: 'Book Antiqua';
+        }
+
+        .card {
+            box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+            transition:0.3s;
+        }
+            .card:hover {
+                transform: scale(1.12);
+            }
+
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .circle {
+        width: 70px;
+        height: 70px;
+        font-size: 24px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+}
+
+
+        /*Body section 2*/
+        /*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+        .img-fluid custom-border-radius {
+            border-radius: 12px;
+        }
+
+        .abc {
+            color: black;
+            font-size: 28px;
+            font-family: Georgia;
+            font-weight: bold;
+        }
+
+        .titt {
+            font-size: 19px; /* Adjust the font size as needed */
+            color: blue; /* Change the font color to blue */
+        }
+
+
+
+        .overlay-button1 {
+            position: absolute;
+            top: 50%;
+            left: 67%;
+            transform: translate(-50%, -50%);
+            border-radius: 4px;
+            padding: 15px 30px; /* Adjust padding to increase button size */
+            transition: background-color 1s;
+        }
+
+        .overlay-button2 {
+            position: absolute;
+            top: 60%;
+            left: 51%;
+            border-radius: 4px;
+            padding: 15px 30px; /* Adjust padding to increase button size */
+            transition: background-color 1.3s;
+        }
+
+@media (max-width: 768px) {
+    .overlay-button1,
+    .overlay-button2 {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .abc {
+        font-size: 20px;
+    }
+
+    .titt {
+        font-size: 16px;
+    }
+}
+
+
+        /*Body Section 3*/
+        /*----------------------------------------------------------------------------------------------------------------------------------------*/
+
+        .overlay-container {
+            position: relative;
+            background: linear-gradient(to right, #8A2BE2, #0000FF); /* Background color */
+            height: 800px; /* Adjust height as needed */
+            padding: 20px;
+        }
+
+        .overlay-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.1;
+        }
+
+        .container h2 {
+            font-size: 20px;
+            color:white;
+            font-family:Cambria;
+        }
+
+        .container h4 {
+            font-size: 40px;
+            color:white;
+            font-weight:bold;
+            font-family:'Cambria Math';
+        }
+
+        .transparent-card {
+            background-color: transparent;
+            border-color: black;
+            border-width: 1px; /* Adjust border width as needed */
+        }
+
+
+@media (max-width: 768px) {
+    .container h2 {
+        font-size: 18px;
+    }
+
+    .container h4 {
+        font-size: 32px;
+    }
+
+    .transparent-card {
+        margin-top: 20px;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+}
+             /*Body Section 4*/
+        /*------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+        .statistics-container {
+            display: flex;
+            justify-content: space-between;
+            /* Add any other styling you need */
+        }
+
+        .statistic {
+            text-align: center;
+            color: white;
+            /* Add padding, font size, etc. as desired */
+        }
+
+
+        .description {
+            font-size: 14px;
+        }
+
+        .container2 {
+            text-align: center;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .flex-item {
+            text-align: center;
+            margin-right: 30px;
+        }
+
+        .number {
+            font-size: 45px;
+            font-family: 'Roboto Thin';
+            color: #007FFF;
+        }
+
+        .description {
+            font-size: 16px;
+        }
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .flex-item {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+          /*Body Section 5*/
+        /*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+        .see {
+            text-align: center;
+            font-family: 'Montserrat Thin', sans-serif;
+            font-size: 17px;
+            color: #007FFF;
+            font-weight:500;
+        }
+
+        .recent{
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+            color:black;
+            font-size:42px;
+        }
+
+        .photo-grid {
+            display: flex; /* Use flexbox layout */
+            justify-content: center; /* Center the items horizontally */
+
+        }
+
+        .photo-placeholder {
+            width: 1000px; /* Set width of each image placeholder */
+            height: 300px; /* Set height of each image placeholder */
+            background-size: cover; /* Scale the background image to cover */
+            margin: 0; /* Remove default margin */
+        }
+
+            .photo-placeholder + .photo-placeholder {
+                margin-left: 0; /* Remove margin between images */
+            }
+
+
+
+
+        /*Body Section 6*/
+        /*-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+        /* Square speech bubble */
+        .speech-bubble {
+            position: relative;
+            width: 290px; /* Adjust width as needed */
+            padding: 20px;
+            background-color:azure;
+            border: 1px solid #000000;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+            .speech-bubble:after {
+                content: '';
+                position: absolute;
+                bottom: -20px;
+                left: 50%;
+                margin-left: -20px;
+                border-width: 20px 20px 0;
+                border-style: solid;
+                border-color: #000000 transparent;
+                display: block;
+                width: 0;
+            }
+
+        /* Circle profile picture */
+        .profile-pic {
+            width: 100px; /* Adjust size as needed */
+            height: 100px; /* Adjust size as needed */
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* Container for testimonial content */
+        .testimonial-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        /* Container for individual testimonial */
+        .testimonial {
+            text-align: center;
+        }
+
+        .watson{
+
+            color:black;
+            font-family:Calibri;
+        }
+
+        .clarke {
+            color: black;
+            font-family: Calibri;
+        }
+
+        .Joe {
+            color: black;
+            font-family: Calibri;
+        }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .speech-bubble {
+        width: 100%; /* Adjust width for smaller screens */
+        max-width: none; /* Remove maximum width */
+    }
+
+    .profile-pic {
+        width: 60px; /* Adjust size for smaller screens */
+        height: 60px; /* Adjust size for smaller screens */
+    }
+}
+
+        /*Body Section 7*/
+        /*-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: #fff;
+}
+
+@media (max-width:767px) {
+    h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+    .intro p {
+        margin-bottom: 0;
+    }
+
+.people {
+    padding: 50px 0;
+    cursor: pointer;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+    .item .box {
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 280px;
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.9s ease;
+    }
+        .item .box:hover {
+            transform: scale(1.5);
+        }
+
+    .item .cover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(31,148,255,0.75);
+        transition: opacity 0.25s ease-in;
+        opacity: 0;
+        padding-top: 80px;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+    }
+
+    .item:hover .cover {
+        opacity: 1;
+        
+    }
+
+    .item .name {
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .item .title {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #bbd8fb;
+        letter-spacing: 2px;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+.social {
+    font-size: 18px;
+}
+
+    .social a {
+        color: inherit;
+        margin: 0 10px;
+        display: inline-block;
+        opacity: 0.8;
+    }
+
+        .social a:hover {
+            opacity: 1;
+        }
+
+@media (max-width: 991px) {
+    .team-grid .item {
+        margin-bottom: 20px; /* Decreased margin for smaller screens */
+    }
+
+        .team-grid .item .cover {
+            padding-top: 40px; /* Adjusted padding for smaller screens */
+        }
+}
+
+@media (max-width: 767px) {
+    .team-grid .item {
+        margin-bottom: 10px; /* Decreased margin for smaller screens */
+    }
+
+        .team-grid .item .cover {
+            padding-top: 30px; /* Adjusted padding for smaller screens */
+        }
+}
+         /*Body Section 8*/
+        /*-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+        .containerbs9 {
+            position: relative;
+            background: linear-gradient(to right, #8A2BE2, #0000FF); /* Background color */
+            height: 350px; /* Adjust height as needed */
+            padding: 20px;
+        }
+            .containerbs9 .title {
+                font-size: 38px;
+                font-weight: bold;
+                color: white;
+                font-family: Calibri;
+                margin-top: 30px;
+                margin-left: 160px;
+            }
+
+           
+
+            .containerbs9 .content {
+                font-size: 17px;
+                margin-top: 10px;
+                color: white;
+                font-family: 'Cambria Math';
+                margin-left: 160px;
+                margin-top: 15px;
+            }
+
+            .phone{
+                font-size:25px;
+                margin-right:180px;
+                margin-top:25px;
+                color:white;
+            }
+
+        .transparent-button3 {
+            margin-right: 165px;
+            background-color: transparent;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: black;
+            cursor: pointer;
+            outline: none;
+            transition: background-color 1s;
+        }
+
+        .transparent-button3:hover {
+            background-color: black;
+            color: white;
+        }
+
+@media (max-width: 768px) {
+    .containerbs9 .title {
+        font-size: 32px;
+    }
+
+    .containerbs9 .content {
+        font-size: 16px;
+    }
+
+    .phone {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .containerbs9 {
+        height: auto; /* Set height to auto for mobile devices */
+    }
+}
+
+
+         /*<!--Body section 9-->*/
+        /*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+         /*Body section 10*/
+         /*-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+ 

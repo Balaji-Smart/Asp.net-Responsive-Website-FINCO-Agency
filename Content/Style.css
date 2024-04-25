@@ -1,0 +1,31 @@
+﻿.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.icon-container img {
+    width: 40px; /* Adjust icon width as needed */
+    height: 40px; /* Adjust icon height as needed */
+    margin-right: 10px; /* Adjust margin to push the icon to the right */
+}
+
+.separator {
+    border-left: 1px solid #ccc; /* Thin vertical line */
+    height: 40px; /* Adjust line height to match icon */
+    margin: 0 20px; /* Adjust margin as needed */
+}
+
+.title-container {
+    margin-left: 20px; /* Adjust margin to separate title from separator */
+}
+
+.main-title {
+    font-weight: bold;
+    font-size: 1.2em; /* Adjust font size as needed */
+}
+
+.sub-title {
+    font-size: 0.9em; /* Adjust font size as needed */
+    color: #888; /* Adjust color as needed */
+}
