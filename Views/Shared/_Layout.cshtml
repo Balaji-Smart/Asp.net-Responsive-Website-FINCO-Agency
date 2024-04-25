@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Content/Site.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="~/Content/JavaScript.js"></script>
+
+    <style>
+        .fixed-navbar {
+            position: fixed;
+            top: 76px;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to right, #fab2ff, #1904e5);
+            z-index: 1000; 
+            padding: 10px 15px;
+        }
+
+            .fixed-navbar a {
+                margin-right: 15px;
+                color: #333; 
+                text-decoration: none;
+            }
+
+                .fixed-navbar a:hover {
+                    color:white;
+                }
+        
+    </style>
+ 
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <img src="~/Images/lion-removebg-preview.png" alt="Your Logo" width="80" height="60">
+                <span class="logo-separator"></span>
+                <div class="logo-title">
+                    <span class="logo-main">FINCO</span>
+                    <span class="logo-sub">Consultancy agency</span>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <img src="~/Images/location.png" alt="Address Icon" width="20" height="20" style="margin-top:-23px">
+                            <div class="logo-title1">
+                                <span style="font-size:18px">ADDRESS</span>
+                                <span class="logo-sub">21/48 King Street, Austria</span>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <img src="~/Images/phone.png" alt="Phone Icon" width="20" height="20" style="margin-top:-18px">
+                            <div class="logo-title1">
+                                <span style="font-size:18px">PHONE</span>
+                                <span class="logo-sub">+52382934</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="fixed-navbar">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <!-- Social media icons -->
+                    <div class="col-auto">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <!-- Navigation links -->
+                    <div class="col-auto">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Pages</a>
+                        <a href="#">Shop</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <!-- Responsive icons -->
+                    <div class="col-auto">
+                        <a href="#" id="search-icon"><i class="fas fa-search"></i></a>
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+    @RenderBody()
+    <hr />
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <footer>
+
+        <div class="container pt-5 border-bottom">
+            <div class="row">
+                <div class="col-md-3 col-sm-12 mb-3 text-center">
+
+                    <div class="container">
+                        <a class="navbar-brand" href="#">
+                            <img src="~/Images/lion-removebg-preview.png" alt="Your Logo" width="80" height="60">
+                        </a>
+                        <div class="logo-title">
+                            <span class="logo-main" style="color:white">FINCO</span>
+                            <span class="logo-sub" style="color:white">Consultancy agency</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-12">
+
+                    <div class="col-md-3 col-sm-6 col-6 p-0 float-left mb-3">
+                        <h5 class="mb-4 font-weight-bold text-uppercase" style="color:white">Useful Links</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#" style="color:white">About Us</a></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#" style="color:white">Contact Us</a></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#" style="color:white">Our Services</a></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#" style="color:white"> Meet Team</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-6 p-0 mb-3 float-left">
+                        <h5 class="mb-4 font-weight-bold text-uppercase"></h5><br />
+                        <ul class="list-group">
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#" style="color:white">Privacy Policy</a></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#" style="color:white">FAQ</a></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#" style="color:white">News</a></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#" style="color:white">Testimonials</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left">
+                        <h5 class="mb-4 font-weight-bold text-uppercase" style="color:white">Address</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><p>20/25 Rajuk Avenue, new model <br /> town, Austria </p></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><p>Phone:68975254</p></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><p>Email:ex@demo.com</p></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><p>Office Time: 9am-6pm</p></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left">
+                        <h5 class="mb-4 font-weight-bold text-uppercase" style="color:white">Newsletter</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                                <p>you will be notified when something news will appear.</p>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Enter your email" style="border-radius: 10px 0 0 10px;">
+                                    <div class="input-group-append">
+
+                                        <button class="input-group-text" style="border-radius: 0 10px 10px 0; border: none; background: none;">
+                                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                <div class="container text-center">
+                    <span style="color:white; font-size:20px">&copy;Copyright &nbsp;<span id="copyrightYear"></span> | Finco-Consulting Wordpress Theme | All Rights Reserved</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
